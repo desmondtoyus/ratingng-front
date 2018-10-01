@@ -1,0 +1,43 @@
+.main_div_of_screen6 .border-line{
+    border-bottom: 1px solid grey;
+}
+.main_div_of_screen6 .uploadImg{
+    height: 65vh;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 4px;
+    position: relative;
+    /* text-align: center; */
+}
+.main_div_of_screen6 .chromeIcon{
+    font-size: 60px;
+    color: #efefef;
+}
+
+.main_div_of_screen6 .big_one{
+    height: 200px !important;
+}
+.main_div_of_screen6 .text_area:focus{
+    border: 1px solid grey;
+    box-shadow: none
+
+}
+.main_div_of_screen6 .redColor{
+    color:#ce2d1f;
+    font-size: 30px;
+}
+.main_div_of_screen6 .stars{
+    margin: 12px auto;
+}
+.main_div_of_screen6 .align{
+    margin: 15px 0 15px 0;
+}
+.main_div_of_screen6 .createCategory{
+    display: inline-flex
+}
+.main_div_of_screen6 .createCategory a{
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px
+}

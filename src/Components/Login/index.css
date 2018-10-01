@@ -1,0 +1,116 @@
+body{
+    background-color: #efefef
+}
+.main_div_of_login .center{
+    text-align: center
+}
+
+.main_div_of_login .log_in_to_see{
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    line-height: 1;
+
+}
+.main_div_of_login .free_account{
+    line-height: 0;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+
+}
+.main_div_of_login .access_pinterest{
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+
+}
+.main_div_of_login .form-control{
+    display: initial;
+
+}
+.main_div_of_login .form-control:focus{
+    border: 1px solid grey;
+    box-shadow: none
+}
+.main_div_of_login .formm{
+    margin-top: 3%;
+
+}
+.main_div_of_login .login_btn{
+    width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.main_div_of_login .OR{
+    margin: 3% auto;
+    font-weight: bold;
+}
+.main_div_of_login .by_continuing{
+    font-size: 10px;
+    color: #d8d8d8;
+    font-weight: bold;
+    margin-top: 4%;
+
+}
+.main_div_of_login .terms_of{
+    color: #909090;
+    font-weight: bold;
+    font-size:10.5px 
+}
+.main_div_of_login .border_line{
+    border-bottom: 1px solid grey;
+    width: 48%;
+    margin-left: 26.5%;
+    margin-top: 3%;
+}
+.main_div_of_login .forgot_pass a{
+color: #8b8787;
+font-weight: bold;
+text-decoration: none;
+font-size: 12px;
+
+}
+.main_div_of_login .not_on_pinterest{
+    color: #8b8787;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+.main_div_of_login .not_on_pinterest a{
+    color: #8b8787;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.main_div_of_login .fb_btn{
+    border: 1px;
+    /* line-height: -2; */
+    color: #eaeff8;
+    background:#4267b2;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow:none;
+    width: 100%;
+    height: 6vh;
+    outline: none;
+    border-radius:2px 
+
+
+}
+
+
+.main_div_of_login .google_btn{
+    border: 1px;
+    color: #eaeff8;
+    background:#4285f4;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow:none;
+    width: 100%;
+    font-size: 15px;
+    height: 6vh;
+    outline: none;
+    margin-top: 4%;
+    border-radius:2px 
+
+
+
+}

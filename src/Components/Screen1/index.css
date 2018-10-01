@@ -1,0 +1,87 @@
+
+.main_div_of_screen1 .bianca{
+    font-size: 26px;
+    color: black;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+
+}
+.main_div_of_screen1 .border-line{
+    border-bottom: 2px solid #eaeaea;
+    width: 100%;
+    margin-top: 2%
+}
+
+ 
+
+.main_div_of_screen1 .followers_text{
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: black;
+    margin: 2%;
+}
+.main_div_of_screen1 .div_of_buttons .faves_btn{
+    outline: none;
+    background: white;
+    width: 140px;
+    height: 38px;
+    margin: 2%;
+    font-size: 16px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: black
+
+}
+.main_div_of_screen1 .div_of_buttons .reviews_btn{
+    outline: none;
+    background: white;
+    width: 140px;
+    height: 38px;
+    margin: 2%;
+    font-size: 16px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: black
+
+}
+.main_div_of_screen1 .div_of_buttons{
+
+    margin-top: 12px;
+}
+.main_div_of_screen1 .div_of_buttons .reviews_btn:focus{
+    
+    background: #efefef
+
+}
+.main_div_of_screen1 .div_of_buttons .faves_btn:focus{
+    
+    background: #efefef
+
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 16px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.table>thead>tr>th {
+    border-bottom: 1px solid #ddd;
+}
+.main_div_of_screen1 .marginTop{
+    margin-top: 18px;
+    margin: 18px auto;
+    width: 70%;
+}
+.main_div_of_screen1 .myFaves_n_travel_text{
+color : #5f5f5f;
+font-size: 15px;
+text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+
+}
+.main_div_of_screen1 .name_review{
+    color: #9d9d9d;
+    font-size: 17px
+}
+.main_div_of_screen1 .myFaves_n_travel{
+    color:black;
+    font-size: 18px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25)
+}

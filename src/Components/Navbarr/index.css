@@ -1,0 +1,58 @@
+.main_div_of_navbar .Header_Of_Login{
+    background: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.main_div_of_navbar .sign-up {
+    color: #fff;
+    background-color: #EA4335;
+    border-color: #EA4335;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.13);
+    border-radius: 4px;
+    font-size: .95rem;
+    height: 41px;
+    width: 100px;
+    outline: none;
+}
+
+
+.main_div_of_navbar .style_of_logo{
+    height: 40px;
+    width:120px;
+}
+.main_div_of_navbar .div_of_navs{
+    /* vertical-align: text-bottom;
+    float: right;
+    justify-content: space-around;
+    width: 25%;
+    display: flex; */
+    display: flex;
+    float: right;
+}
+.main_div_of_navbar .defaultLinks{
+    color:black;
+    font-size: 16px;   
+    display: flex;
+    /* margin-top: 10px; */
+
+}
+
+.main_div_of_navbar .defaultLinks:hover{
+    color:black;   
+}
+.main_div_of_navbar .defaultIconStyle{
+    font-size: 25px;
+    /* margin-top: 10px; */
+}
+.main_div_of_navbar .div_of_log_N_menu{
+    
+    display: inline-flex;
+    justify-content: space-between;
+}
+.main_div_of_navbar .alignMiddle{
+    /* margin-top: 10px; */
+    margin: 10px 15px 0px 0px
+}

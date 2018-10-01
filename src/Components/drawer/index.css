@@ -1,0 +1,57 @@
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+
+.main_div_of_drawer .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    line-height: 1
+}
+
+.main_div_of_drawer .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer
+}
+
+.main_div_of_drawer .sidenav a:hover {
+    color: #818181;
+
+}
+
+.main_div_of_drawer .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 50px;
+    margin-right: 50px;
+}
+
+.main_div_of_drawer #main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.main_div_of_drawer .menu_icon{
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 8px
+}

@@ -1,0 +1,105 @@
+.main_div_of_screen3 .bianca{
+    font-size: 26px;
+    color: black;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+
+}
+.main_div_of_screen3 .border-line{
+    border-bottom: 2px solid #eaeaea;
+    width: 100%;
+    margin-top: 2%
+}
+
+
+.main_div_of_screen3 .followers_text{
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: black;
+    margin: 2%;
+}
+.main_div_of_screen3 .div_of_buttons .faves_btn{
+    outline: none;
+    background: white;
+    width: 140px;
+    height: 38px;
+    margin: 2%;
+    font-size: 16px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: black
+
+}
+.main_div_of_screen3 .div_of_buttons .reviews_btn{
+    outline: none;
+    background: white;
+    width: 140px;
+    height: 38px;
+    margin: 2%;
+    font-size: 16px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: black
+
+}
+.main_div_of_screen3 .div_of_buttons{
+    margin-top: 12px;
+}
+.main_div_of_screen3 .div_of_buttons .reviews_btn:focus{
+    
+    background: #efefef
+
+}
+.main_div_of_screen3 .div_of_buttons .faves_btn:focus{
+    
+    background: #efefef
+
+}
+
+
+.main_div_of_screen3 .marginTop{
+    margin-top: 18px;
+    margin: 18px auto;
+    width: 70%;
+}
+.main_div_of_screen3 .redColor{
+    color:#ce2d1f;
+    font-size: 18px;
+}
+.goldenColor{
+    color: #facd81;
+}
+.stars {
+    display: inline-flex;
+}
+.main_div_of_screen3 .date{
+    color: black;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    font-size: 16px;
+    margin-left: 5px
+}
+
+.main_div_of_screen3 .product_lorem{
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: black;
+    line-height: 0;
+}
+.main_div_of_screen3 .location_lorem{
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: black;
+}
+.main_div_of_screen3 .name_review{
+    color: #9d9d9d;
+    font-size: 17px
+}
+.main_div_of_screen3 .review-and-photos_text{
+    color: black;
+    font-size: 16px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+
+}
+.main_div_of_screen3 .lorem_ipsum_paragraph{
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: black;
+    margin-top: 6px;
+    font-size: 16.5px
+}
+.panel-body {
+    padding: 20px;
+}

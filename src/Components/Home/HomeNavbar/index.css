@@ -1,0 +1,32 @@
+.main_div_of_homeNavbar .homeNavbar{
+    background: white;
+    border: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle {
+    background-color: #333;
+    float: left;
+    margin: 10px;
+}
+
+.main_div_of_homeNavbar .sign-up {
+    color: #fff;
+    background-color: #EA4335;
+    border-color: #EA4335;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.13);
+    border-radius: 4px;
+    font-size: .95rem;
+    height: 41px;
+    width: 100px;
+    outline: none;
+}
+.main_div_of_homeNavbar .sign-up:focus {
+    outline: none;
+}
+.main_div_of_homeNavbar .sign-in {
+    color: #4a4a4a;
+    line-height: 3
+}

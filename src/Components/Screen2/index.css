@@ -1,0 +1,134 @@
+.Main_div_of_screen2 .name {
+    font-weight: bold;
+    text-align: left;
+}
+.Main_div_of_screen2 .dots {
+    padding: 0px 5px 0px 0px;
+}
+.Main_div_of_screen2 .userImg {
+    padding: 0px;
+}
+.Main_div_of_screen2 .main-img {
+    height: 425px;
+    background-color: #eaeaea;
+    margin-bottom: 10px;
+}
+
+.Main_div_of_screen2 .scroll {
+    width: 100%;
+    height: 80px;
+}
+
+.Main_div_of_screen2 .left-scroll {
+    padding-top: 27px;
+    float: left;
+    height: 80px;
+    background-image: linear-gradient(to left, rgba(128, 128, 128, 0), rgba(128, 128, 128, 1));
+}
+
+.Main_div_of_screen2 .right-scroll {
+    padding-top: 27px;
+    float: right;
+    height: 80px;
+    background-image: linear-gradient(to left, rgba(128, 128, 128, 1), rgba(128, 128, 128, 0));
+}
+
+.Main_div_of_screen2 .scroll-div {
+    height: 80px;
+    margin: 0px 30px;
+}
+
+.Main_div_of_screen2 .img-scroll {
+    height: 80px;
+    margin: 0px 3px;
+    background-color: #eaeaea;
+}
+
+.Main_div_of_screen2 .url {
+    background-color: #f7f7f7;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Main_div_of_screen2 .detail {
+    margin: 5px 0px;
+}
+
+.Main_div_of_screen2 .align_center {
+    text-align: center;
+}
+
+.Main_div_of_screen2 .stars {
+    display: flex;
+}
+
+.Main_div_of_screen2 .name {
+    color: black;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+
+}
+.Main_div_of_screen2 .name_text{
+    color: #b3b3b3
+}
+
+.Main_div_of_screen2 .myFaves{
+    font-weight: bold
+    
+}
+.Main_div_of_screen2 .big_start{
+    text-shadow: 0px 4px 5px #b3b3b3;
+    color: #ffffff
+}
+
+.Main_div_of_screen2 .more_products{
+    color: black;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+
+}
+.Main_div_of_screen2 .shop_with_confidence{
+    color: #c5c5c5;
+}
+.Main_div_of_screen2 .card_name{
+    color: #ed5c50;
+}
+textarea.form-control {
+    height: 100px !important;
+}
+
+.Main_div_of_screen2 .sign-up {
+    color: #fff;
+    background-color: #EA4335;
+    border-color: #EA4335;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.13);
+    border-radius: 4px;
+    font-size: .95rem;
+    height: 41px;
+    width: 101px;
+    outline: none;
+}
+
+.Main_div_of_screen2 .sign-up:focus {
+    color: #fff;
+    background-color: #ce2d1f;
+    border-color: #ce2d1f;
+    outline: none;
+
+}
+.Main_div_of_screen2.sign-up:hover {
+    color: #fff;
+    background-color: #ce2d1f;
+    border-color: #ce2d1f;
+    outline: none;
+
+}
+.Main_div_of_screen2 .share_icon{
+    margin-top: 11px;
+}
+.Main_div_of_screen2 .reviews{
+    color: black;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+}
+.Main_div_of_screen2 .redColor{
+    color:#ce2d1f
+}
