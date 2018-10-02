@@ -8,7 +8,7 @@ import Screen4 from '../src/Components/Screen4/index';
 import Screen5 from '../src/Components/Screen5/index';
 import Screen6 from '../src/Components/Screen6/index';
 import Home from '../src/Components/Home/index';
-
+import About from '../src/Components/About/index';
 
 
 
@@ -28,6 +28,7 @@ class App extends Component {
         <Route path="/screen5" component={Screen5} />
         <Route path="/screen6" component={Screen6} />
         <Route path="/home" component={Home} />
+        <Route path="/about" component={About} />
 
 
 

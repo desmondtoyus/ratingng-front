@@ -14,10 +14,10 @@ class Footer extends Component {
         return (
             <div className="main_div_of_footer">
 
-                       <footer>
+                       <footer style={{ borderTop: '1px solid #414354', backgroundColor: '#2F313D'}}>
                        <div className="div_of_logo">
                         <span className="logo_text_default logo_text"> Rating.Ng </span>
-                        <span className="logo_text_default"> Copyright © 2018  </span>
+                        <span className="logo_text_default logo_text"> Copyright © 2018  </span>
                         </div>
                         <div className="div_of_socialIcons">
                        <span>

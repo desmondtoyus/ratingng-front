@@ -1,40 +1,34 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavItem, } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-
 import './index.css';
 
 
-class HomeNavbar extends Component {
+class DefaultNavbar extends Component {
   render() {
     return (
       <div className="main_div_of_homeNavbar">
        <Navbar inverse collapseOnSelect className="homeNavbar">
   <Navbar.Header>
-
-    {/* <Navbar.Brand>
-      <Link to='/'href="#brand">React-Bootstrap</Link>
-    </Navbar.Brand> */}
     <Navbar.Toggle />
   </Navbar.Header>
   <Navbar.Collapse>
   <Nav>
       <NavItem eventKey={1} href="#">
-      <Link to='/'className="sign-in">Product</Link>
+      <span className="sign-in">Product</span>
       </NavItem>
       <NavItem eventKey={2} href="#">
-      <Link to='/'className="sign-in">Services</Link>
+      <span className="sign-in">Services</span>
       </NavItem>
       <NavItem eventKey={2} href="#">
-      <Link to='/'className="sign-in">Experience</Link>
+      <span className="sign-in">Experience</span>
       </NavItem>
     </Nav>
     <Nav pullRight>
       <NavItem eventKey={1} href="#">
-      <Link to='/'className="sign-in">Sign In</Link>
+      <span to='/'className="sign-in">Sign In</span>
       </NavItem>
       <NavItem eventKey={2} href="#">
-      <button class="btn my-2 my-sm-0 sign-up" type="submit">Sign Up</button>
+      <button className ="btn my-2 my-sm-0 sign-up" type="submit">Sign Up</button>
       </NavItem>
     </Nav>
   </Navbar.Collapse>
@@ -44,4 +38,4 @@ class HomeNavbar extends Component {
   }
 }
 
-export default HomeNavbar;
+export default DefaultNavbar;

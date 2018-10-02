@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './index.css';
 import { Link } from 'react-router-dom';
 import {Button, Grid,Row,Col,FormGroup,FormControl ,Panel} from 'react-bootstrap';
+import {Icon} from "semantic-ui-react";
 
 class Login extends Component {
   render() {
@@ -14,10 +15,8 @@ class Login extends Component {
               <Panel>
                 <Panel.Body>
     <div className='login_div'>
-     <p className="center">logo</p>
-     <p className="log_in_to_see center">Log in to see more</p>
-     <p className="access_pinterest center">Access Pinterest's best ideas with a</p>
-     <p className='free_account center'>free account</p>
+     <p className="center"><img alt="ratingng log" className="ratingLogo" src={require('../../assets/ratingNgLogo.svg')} width="100px" height="80px"/></p>
+     <p className="log_in_to_see center">Log in</p>
      <form className="formm">
         <FormGroup
           controlId="formBasicText1"
@@ -35,19 +34,14 @@ class Login extends Component {
             placeholder="Password"
           />
         </FormGroup>
-        <Button className="login_btn" disabled={true}>Log in</Button>
+        <Button className="login_btn" bsStyle="primary">Log in</Button>
         <p className="OR center">OR</p>
-        <button className="fb_btn">
-        <img alt="ratingng logo" src={require('../../assets/fb.png')} height="30px" width="35px"/> Continue With Facebook
-      </button>
-      <button className="google_btn">
-      <img alt="ratingng logo" src={require('../../assets/google.jpg')} height="25px" width="25px"/>
-       Continue With Google
-      </button>
-      <p className="by_continuing center">By continuing, you agree to Pinterest's <span className="terms_of">Terms of Service, Privacy Policy</span> </p>
+        <Button className="fb_btn" bsStyle="primary"> <Icon name ='facebook official'/> Continue With Facebook</Button>
+        <Button className="google_btn"bsStyle="primary"> <Icon name ='google'/>  Continue With Google</Button>
+      <p className="by_continuing center">By continuing, you agree to Rating.Ng's <span className="terms_of">Privacy Policy</span> </p>
       <p className="forgot_pass center"><Link to= "/">Forgot your password?</Link></p>
       <p className="border_line"></p>
-      <p className='not_on_pinterest center'>Not on Pinterest yet?<Link to= "/">Sign up</Link></p>
+      <p className='not_on_pinterest center'>Not on Rating.Ng yet? <Link to= "/" className='sign_up'> Sign up</Link></p>
       </form>
     </div>
     </Panel.Body>

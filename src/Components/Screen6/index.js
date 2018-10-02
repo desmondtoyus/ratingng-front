@@ -83,7 +83,7 @@ class Screen6 extends Component {
                                                 className="text_area select align"
                                                 componentClass="select"
                                             >
-                                             <option value="">Choose Link to='/' category</option>
+                                             <option value="">Choose a category</option>
                                                 <option value="United States">United States</option>
                                                 <option value="United Kingdom">United Kingdom</option>
                                             </FormControl>
