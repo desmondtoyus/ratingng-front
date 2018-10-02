@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from "react-bootstrap";
-
-
 import './index.css';
 import DefaultNavbar from '../defaultNavbar/index';
 import Footer from '../footer';
