@@ -3,7 +3,7 @@ import './index.css';
 import Drawer from '../drawer/index';
 import { Link } from 'react-router-dom';
 
-class NavbarrTwo extends Component {
+class LogginNavbar extends Component {
     constructor() {
         super();
         this.state = {
@@ -55,4 +55,4 @@ class NavbarrTwo extends Component {
     }
 }
 
-export default NavbarrTwo;
+export default LogginNavbar;

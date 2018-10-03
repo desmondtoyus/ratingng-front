@@ -1,21 +1,39 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "../../App.css";
 import './index.css';
-import { Button, Panel, Grid, Row, Col, } from 'react-bootstrap';
-import NavbarrTwo from '../NavbarrTwo/index';
-import Footer from '../footer/index'
+import { Button, Row, Col } from 'react-bootstrap';
+import LogginNavbar from '../LogginNavbar/index';
+import Footer from "../footer";
+
 class Screen1 extends Component {
   render() {
     return (
-      <div className="main_div_of_screen1 main-container">
-      <NavbarrTwo />
-      <br />
-        <Grid>
-          <Row className="show-grid" style={{margin:" 80px 0 0 0"}}>
+      <div className="main_div_of_home main-container home-container">
+        <LogginNavbar />
+        <div className="resources-area" style={{ marginTop: "10%" }}>
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12" />
+            </div>
+            <div className="row">
+              <div
+                className="col-md-12 higlights"
+                style={{
+                  height: "100%",
+                  paddingLeft: "25px",
+                  position: "relative",
+                  zIndex: "2"
+                }}
+              >
+                <div className="highlights-card" style={{width:'80%', marginRight:'7%', marginLeft:'auto'}}>
+                  <div
+                    className="highlights-card-content"
+                    style={{ paddingTop: "2px" }}
+                  >
+                       <div className="main_div_of_screen1"> 
+          <Row >
           <Col xs={0} sm={0} md={2} lg={2}></Col>
-                        <Col xs={12} sm={12} md={8} lg={8}>
-              <Panel>
-                <Panel.Body>
-
+                        <Col xs={12} sm={12} md={12} lg={12}>
                   <div className="sub_div">
                     <span className="bianca">Bianca Lungu Montoya</span>
                     <p className="border-line"></p>
@@ -52,16 +70,16 @@ class Screen1 extends Component {
 </Row>
 
 </Col>
-
-
                   </div>
-                </Panel.Body>
-              </Panel>
             </Col>
-            <Col xs={0} sm={0} md={2} lg={2}></Col>
           </Row>
-        </Grid>
-        
+        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <Footer />
       </div>
     );

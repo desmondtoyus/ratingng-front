@@ -1,21 +1,43 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "../../App.css";
 import './index.css';
-import { Button, Panel, Grid, Row, Col,} from 'react-bootstrap';
-import NavbarrTwo from '../NavbarrTwo/index';
-import Footer from '../footer/index'
+import { Button, Row, Col,} from 'react-bootstrap';
+import LogginNavbar from '../LogginNavbar/index';
+import Footer from "../footer";
 
 class Screen3 extends Component {
   render() {
     return (
+      <div className="main_div_of_home main-container home-container">
+        <LogginNavbar />
 
-        <div className="main_div_of_screen3 main-container">
-        <NavbarrTwo />
-      <Grid>
-      <Row className="show-grid" style={{margin:" 100px 0 0 0"}}>
-          <Col xs={0} sm={0} md={2} lg={2}></Col>
-                        <Col xs={12} sm={12} md={8} lg={8}>
-              <Panel>
-                <Panel.Body>
+        <div className="resources-area" style={{ marginTop: "5%" }}>
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12" />
+            </div>
+            <div className="row">
+              <div
+                className="col-md-12 higlights"
+                style={{
+                  height: "100%",
+                  paddingLeft: "25px",
+                  position: "relative",
+                  zIndex: "2"
+                }}
+              >
+                <div className="highlights-card" style={{width:'80%', marginRight:'7%', marginLeft:'auto'}}>
+                  <br />
+                  <div
+                    className="highlights-card-content"
+                    style={{ paddingTop: "2px" }}
+                  >
+                    <div className="col-md-10" style={{ display: "inline" }}>
+                      <br />
+                      <div className="main_div_of_screen3">
+                      <Row >
+          {/* <Col xs={0} sm={0} md={2} lg={2}></Col> */}
+                        <Col xs={12} sm={12} md={12} lg={12}>
 
                   <div className="sub_div">
                     <span className="bianca">Bianca Lungu Montoya</span>
@@ -104,20 +126,25 @@ class Screen3 extends Component {
                     </Row>
                    
                   </div>
-                </Panel.Body>
-              </Panel>
             </Col >
           </Row >
 
-      </Grid >
-      <Footer />
-        </div >
-      
 
+</div>
+                    </div>
+                  </div>
+
+                  <br />
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Footer />
+      </div>
     );
   }
 }
 
 export default Screen3;
-
-

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './index.css';
-import DefaultNavbar from '../defaultNavbar/index';
+import DefaultNavbar from '../DefaultNavbar/index';
 import Footer from '../footer';
 
 class Contact extends Component{

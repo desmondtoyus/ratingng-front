@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Footer from '../footer/index'
 import './index.css';
-import NavbarrTwo from '../NavbarrTwo';
+import LogginNavbar from '../LogginNavbar';
 import { Link } from 'react-router-dom';
 
 import {
@@ -16,7 +16,7 @@ class Screen6 extends Component {
     render() {
         return (
             <div className="main_div_of_screen6 main-container">
-                <NavbarrTwo />
+                <LogginNavbar />
                 <Grid>
                     <Row style={{margin:" 100px 0 0 0"}}>
                         <Col xs={0} sm={0} md={2} lg={2}></Col>

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import '../Contact/index.css';
-import DefaultNavbar from '../defaultNavbar/index';
+import '../../App.css';
+import DefaultNavbar from '../DefaultNavbar/index';
 import Footer from '../footer';
 
 class Career extends Component{
