@@ -13,7 +13,6 @@ class Footer extends Component {
     render() {
         return (
             <div className="main_div_of_footer">
-
                        <footer style={{ borderTop: '1px solid #414354', backgroundColor: '#2F313D'}}>
                        <div className="div_of_logo">
                         <span className="logo_text_default logo_text"> Rating.Ng </span>

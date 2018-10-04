@@ -14,7 +14,16 @@
     float: left;
     margin: 10px;
 }
-
+.style_of_logo{
+    height: 40px;
+    width:120px;
+    display: inline-block;
+    margin-top: 13px;
+    margin-bottom: auto;
+}
+.main_div_of_homeNavbar .container {
+    width: 100%;
+}
 .main_div_of_homeNavbar .sign-up {
     color: #fff;
     background-color: #EA4335;

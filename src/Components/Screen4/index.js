@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col, Panel, } from "react-bootstrap";
 import './index.css'
-import Navbarr from '../Navbarr/index'
+import DefaultNavbar from '../DefaultNavbar/index';
 import Footer from '../footer/index'
 
 class Screen4 extends Component {
@@ -27,7 +27,7 @@ class Screen4 extends Component {
     render() {
         return (
             <div className="Main_div_of_screen4 main-container bodyWhite">
-            <Navbarr />
+            <DefaultNavbar/>
 
             <div className="navbar_borderLine">  </div>
                 <Grid>

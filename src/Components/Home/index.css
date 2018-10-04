@@ -7,12 +7,11 @@
 }
 .main_div_of_home .rateAnyproduct{
     text-align: center;
-    letter-spacing: 2px;
     color: #7c7c7c
 }
 .main_div_of_home .searchOver{
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     color: #a2a2a2
 }
 
@@ -36,10 +35,9 @@
 .main_div_of_home .neverMiss{
     background-color: #efefef;
     height: 100%;
-    padding: 30px;
+    padding: 10px;
     left: 0;
     right: 0;
-  
     position: absolute;
     margin: 3% 0 0 0;
 }
@@ -106,4 +104,70 @@
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 1px rgba(0, 109, 0, 0.8);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 1px rgba(0, 109, 0, 0.8);
+}
+
+
+
+.ratingNg-categories {
+    text-align: center;
+}
+
+#productsActive {
+    background-image: url("../../assets/img/products-active.svg");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#products {
+    background-image: url("../../assets/img/products.svg");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#servicesActive {
+    background-image: url("../../assets/img/services-active.svg");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#services {
+    background-image: url("../../assets/img/services.svg");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#experiencesActive {
+    background-image: url("../../assets/img/experiences-active.svg");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#experiences {
+    background-image: url("../../assets/img/experiences.svg");
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding: 0;
+    vertical-align: middle;
 }

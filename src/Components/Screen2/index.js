@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col, Panel, Image, FormGroup, FormControl } from "react-bootstrap";
 import './index.css'
-import Navbarr from '../Navbarr/index'
+import DefaultNavbar from '../DefaultNavbar/index';
 import Footer from '../footer/index';
 import { Link } from 'react-router-dom';
 
@@ -28,7 +28,7 @@ class screen2 extends Component {
     render() {
         return (
             <div className="Main_div_of_screen2 main-container">
-            <Navbarr />
+            <DefaultNavbar />
             {/* <div className="highlights-card"> */}
                 <Grid>
                     <Row>

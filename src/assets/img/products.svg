@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="119px" viewBox="0 0 119 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>products</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="52 0 68.0614334 34.2311949 104 39.7679079 78 66.3938986 84.1376564 104 52 86.2234186 19.8623436 104 26 66.3938986 0 39.7679079 35.923777 34.2311949"></polygon>
+        <filter x="-11.7%" y="-10.3%" width="123.4%" height="123.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0664628623 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-408.000000, -787.000000)">
+            <g id="Categories" transform="translate(415.000000, 793.000000)">
+                <g id="products">
+                    <g id="Fill-1">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="package" transform="translate(34.000000, 36.000000)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M19.6020399,0.378470748 L34.0020049,7.62404956 C35.2253857,8.23581191 35.9992751,9.49169899 36,10.8664461 L36,28.1290376 C35.9992751,29.5037847 35.2253857,30.7596718 34.0020049,31.3714341 L19.6020399,38.6170129 C18.5879801,39.1276624 17.3941076,39.1276624 16.3800478,38.6170129 L1.98008283,31.3714341 C0.75787214,30.7516998 -0.00943672717,29.4881519 8.76547343e-05,28.1109237 L8.76547343e-05,10.8664461 C0.000812558495,9.49169899 0.774701947,8.23581191 1.99808279,7.62404956 L16.3980477,0.378470748 C17.407184,-0.126156916 18.5929037,-0.126156916 19.6020399,0.378470748 Z" id="Shape"></path>
+                        <polyline id="Shape" points="1 9 18.5 18 36 9"></polyline>
+                        <path d="M18,39 L18,18" id="Shape"></path>
+                        <path d="M9,5 L27,14" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

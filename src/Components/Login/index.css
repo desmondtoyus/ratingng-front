@@ -6,7 +6,7 @@ body{
 }
 
 .main_div_of_login .log_in_to_see{
-    font-size: 24px;
+    font-size: 14px;
     font-weight: bold;
     text-shadow: 0 -1px 0 rgba(0,0,0,.25);
     line-height: 1;
@@ -41,6 +41,7 @@ body{
 .main_div_of_login .OR{
     margin: 3% auto;
     font-weight: bold;
+    font-size: 10px;
 }
 .main_div_of_login .by_continuing{
     font-size: 10px;
@@ -85,8 +86,7 @@ font-size: 12px;
     background:#3b5998;
     border: #3b5998;
     width: 100%;
-    font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 
@@ -97,8 +97,7 @@ font-size: 12px;
     border: #db3236;
     /* background:#4285f4; */
     width: 100%;
-    font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
 
 
 }
@@ -109,3 +108,10 @@ font-size: 12px;
     cursor: pointer !important;
 
 }
+
+
+
+
+
+
+

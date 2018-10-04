@@ -15,7 +15,7 @@ class Login extends Component {
               <Panel>
                 <Panel.Body>
     <div className='login_div'>
-     <p className="center"><img alt="ratingng log" className="ratingLogo" src={require('../../assets/ratingNgLogo.svg')} width="100px" height="80px"/></p>
+     <p className="center"><img alt="ratingng log" className="ratingLogo" src={require('../../assets/ratingNgLogo.svg')} width="120px" /></p>
      <p className="log_in_to_see center">Log in</p>
      <form className="formm">
         <FormGroup

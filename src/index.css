@@ -22,5 +22,17 @@ body {
   position: relative;
   overflow: hidden;
   display: block;
-  padding-bottom: 350px;
+  padding-bottom: 250px;
+}
+@media only screen and (min-width: 1200px) {
+  .home-container {
+    padding-bottom: 200px;
+  }
+
+
+}
+@media only screen and (min-width: 2000px) {
+  .home-container {
+    padding-bottom: 200px;
+  }
 }

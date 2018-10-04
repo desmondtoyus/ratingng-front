@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import "../../App.css";
 import './index.css';
 import { Button, Row, Col } from 'react-bootstrap';
-import LogginNavbar from '../LogginNavbar/index';
+import DefaultNavbar from '../DefaultNavbar/index';
 import Footer from "../footer";
 
 class Screen1 extends Component {
   render() {
     return (
       <div className="main_div_of_home main-container home-container">
-        <LogginNavbar />
+        <DefaultNavbar />
         <div className="resources-area" style={{ marginTop: "10%" }}>
           <div className="container">
             <div className="row">
