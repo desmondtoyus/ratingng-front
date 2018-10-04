@@ -38,3 +38,143 @@
     color: #dddcdc;
     font-size:18px
 }
+
+.subscribe-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    /* background: #F0516F;  */
+    /* For browsers that do not support gradients */
+    /* background: url('img/Pattern.png'); */
+    background: -webkit-linear-gradient(left, #F0516F, #FF6B6B);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #F0516F, #FF6B6B);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #F0516F, #FF6B6B);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #F0516F, #FF6B6B);
+    /* Standard syntax */
+  }
+  .cta-desc {
+    padding: 0;
+    color: #2F313D;
+  }
+
+.subscribe-card-title {
+    padding-top: 30px;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Mandali', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .subscribe-line {
+    width: 35px;
+    height: 3px;
+    background-color: #FFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .subscribe-card-subtitle {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Mandali', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .single .form-control {
+    min-height: 50px;
+    border-radius: 0 30px 30px 0;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    color: #949494;
+    border-color: transparent;
+    padding-left: 30px;
+    border-radius: 30px 0 0 30px;
+  }
+  
+  .single .form-control:focus {
+    box-shadow: none;
+    border-color: #2F313D;
+  }
+  
+  .single .btn {
+    min-height: 50px;
+    border-radius: 30px 20px 20px 30px;
+    background: #2F313D;
+    color: #fff;
+    z-index: 3;
+    position: relative;
+  }
+
+  .menu-address {
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Mandali', sans-serif;
+    color: #6E7493;
+    font-size: 16px;
+  }
+  
+  .menu {
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Mandali', sans-serif;
+    color: #6E7493;
+    font-size: 16px;
+  }
+  
+  .menu:hover {
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Mandali', sans-serif;
+    color: #FF6B6B;
+    font-size: 16px;
+  }
+  
+  .menu-h1 {
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Mandali', sans-serif;
+    color: #FF6B6B;
+    font-size: 19px;
+  }
+  
+  .menu-line {
+    width: 25px;
+    height: 3px;
+    background-color: #FF6B6B;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .copyright {
+    font-family: 'Mandali', sans-serif;
+    color: #6E7493;
+    font-size: 14px;
+    float: left;
+    margin: 10px 20px 10px 20px;
+  }

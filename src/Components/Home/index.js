@@ -56,7 +56,7 @@ class Home extends Component {
                             <p className="searchOver"> Check out the most popular products, services and experiences rated today </p>
                         </Col>
                     </Row>
-                    <Row style={{ margin: "1% 0 1% 0" }}>
+                    <Row style={{ margin: "1% 0 0 0" }}>
                      
        
                 <div className="col-sm-4 ratingNg-categories">
@@ -81,12 +81,8 @@ class Home extends Component {
 
                     
 
-                </Grid>
-                <div className="neverMiss center">
-
-                        <Row >
-      
-                        </Row>
+             
+                {/* <div className="neverMiss center">
                         <Row >
                         <Col sm={3}>     
                             </Col>
@@ -106,7 +102,8 @@ class Home extends Component {
                             </Col>
                         </Row>
 
-                </div>
+                </div> */}
+                </Grid>
                 <Footer />
             </div>
         );
