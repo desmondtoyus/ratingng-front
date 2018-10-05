@@ -1,13 +1,14 @@
 .main_div_of_screen5 .navs {
     font-weight: bold;
     text-align: right;
-    color: black;
+    color: #EA4335;
     display:block;
-    line-height: -1
+    line-height: -1;
+    margin-bottom:5px;
 }
 
 .main_div_of_screen5 .navs:hover {
-    color: #3983d0;
+    color: black;
     cursor: pointer;
 }
 
@@ -35,7 +36,7 @@
     border-color: #EA4335;
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.13);
     border-radius: 4px;
-    font-size: .95rem;
+    font-size: 13px;
     height: 41px;
     width: 100%;
     outline: none;
@@ -49,7 +50,6 @@
     background: #efefef;
     border: none;
     height: 40px;
-    font-weight: bold;
     width: 40%;
 }
 .main_div_of_screen5 .changePic:focus{

@@ -35,7 +35,7 @@ class Screen5 extends Component {
                             <Panel>
                                 <Panel.Body>
                                     <Row className="show-grid">
-                                        <Col xs={12} sm={4} md={4} lg={4}>
+                                        <Col xs={11} sm={3} md={3} lg={3}>
                                             <br />
                                             <Link to='/' className="navs">Account Basics</Link >
                                             <Link to='/' className="navs">Profile</Link>
@@ -44,7 +44,8 @@ class Screen5 extends Component {
                                             <Link to='/' className="navs">Security</Link>
                                             <br />
                                         </Col>
-                                        <Col xs={12} sm={8} md={8} lg={8}>
+                                        <Col xs={1} sm={1} md={1} lg={1}></Col>
+                                        <Col xs={11} sm={7} md={7} lg={7}>
                                             <Row>
                                                 <Col xs={12} sm={12} md={12} lg={12}>
                                                     <h2 className="heading">Account Basics</h2>

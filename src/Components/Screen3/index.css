@@ -1,5 +1,5 @@
 .main_div_of_screen3 .bianca{
-    font-size: 26px;
+    font-size: 22px;
     color: black;
     text-shadow: 0 -1px 0 rgba(0,0,0,.25);
 
@@ -22,7 +22,7 @@
     width: 140px;
     height: 38px;
     margin: 2%;
-    font-size: 16px;
+    font-size: 13px;
     text-shadow: 0 -1px 0 rgba(0,0,0,.25);
     color: black
 
@@ -33,7 +33,7 @@
     width: 140px;
     height: 38px;
     margin: 2%;
-    font-size: 16px;
+    font-size: 13px;
     text-shadow: 0 -1px 0 rgba(0,0,0,.25);
     color: black
 
@@ -60,7 +60,7 @@
 }
 .main_div_of_screen3 .redColor{
     color:#ce2d1f;
-    font-size: 18px;
+    font-size: 14px;
 }
 .goldenColor{
     color: #facd81;
@@ -71,7 +71,7 @@
 .main_div_of_screen3 .date{
     color: black;
     text-shadow: 0 -1px 0 rgba(0,0,0,.25);
-    font-size: 16px;
+    font-size: 13px;
     margin-left: 5px
 }
 
@@ -79,6 +79,7 @@
     text-shadow: 0 -1px 0 rgba(0,0,0,.25);
     color: black;
     line-height: 0;
+    font-size: 13px;
 }
 .main_div_of_screen3 .location_lorem{
     text-shadow: 0 -1px 0 rgba(0,0,0,.25);
@@ -86,19 +87,19 @@
 }
 .main_div_of_screen3 .name_review{
     color: #9d9d9d;
-    font-size: 17px
+    font-size: 13px
 }
 .main_div_of_screen3 .review-and-photos_text{
     color: black;
-    font-size: 16px;
+    font-size: 13px;
     text-shadow: 0 -1px 0 rgba(0,0,0,.25);
 
 }
 .main_div_of_screen3 .lorem_ipsum_paragraph{
-    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    font-family: 'Mukta Vaani', sans-serif;
     color: black;
     margin-top: 6px;
-    font-size: 16.5px
+    font-size: 13px
 }
 .panel-body {
     padding: 20px;

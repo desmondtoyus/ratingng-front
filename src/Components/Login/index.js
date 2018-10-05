@@ -9,7 +9,7 @@ class Login extends Component {
     return (
       <div className="main_div_of_login">
       <Grid>
-      <Row className="show-grid" style={{margin:" 80px 0 0 0"}}>
+      <Row className="show-grid" style={{margin:"80px 0 auto 0"}}>
           <Col xs={0} sm={0} md={4} lg={4}></Col>
                         <Col xs={12} sm={12} md={4} lg={4}>
               <Panel>

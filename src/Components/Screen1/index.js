@@ -10,7 +10,7 @@ class Screen1 extends Component {
     return (
       <div className="main_div_of_home main-container home-container">
         <DefaultNavbar />
-        <div className="resources-area" style={{ marginTop: "10%" }}>
+        <div className="resources-area" style={{ marginTop: "10%"}}>
           <div className="container">
             <div className="row">
               <div className="col-sm-12" />
@@ -80,6 +80,7 @@ class Screen1 extends Component {
             </div>
           </div>
         </div>
+        <br/>
         <Footer />
       </div>
     );
