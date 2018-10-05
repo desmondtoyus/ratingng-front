@@ -6,7 +6,11 @@
     line-height: -1;
     margin-bottom:5px;
 }
-
+.main_div_of_screen5{
+    font-family: 'Mukta Vaani', sans-serif;
+    letter-spacing: 0.0625em;
+    font-size: 12px;
+}
 .main_div_of_screen5 .navs:hover {
     color: black;
     cursor: pointer;
